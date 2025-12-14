@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Employee</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<div id="toast"></div>
+
+<body>
+
+  <div class="photo-bg">
+    <div class="overlay"></div>
+
+    <div class="add-card">
+        <h2>Add New Employee</h2>
+           <p class="sub-text">Enter employee information</p>
+
+      <div class="field">
+  <input type="text" id="name" required />
+  <label>Full Name</label>
+</div>
+
+<div class="field">
+  <input type="email" id="email" required />
+  <label>Email Address</label>
+</div>
+
+<div class="field">
+  <input type="text" id="department" required />
+  <label>Department</label>
+</div>
+
+<div class="field">
+  <input type="number" id="salary" required />
+  <label>Salary</label>
+</div>
+
+
+<button onclick="addEmployee()">Save Employee</button>
+
+<a href="index.html" class="back-link">
+  ← Back to Dashboard
+</a>
+
+
+
+  <div id="toast"></div>
+  <script src="script.js"></script>
+
+</body>
+
+
+
+</html>
+
