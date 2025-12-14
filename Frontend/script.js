@@ -1,4 +1,5 @@
-const api = 'http://localhost:3000/employees';
+const api = "https://your-backend-name.onrender.com/employees";
+
 
 /* ---------- TOAST FUNCTION ---------- */
 function showToast(message, isError = false) {
